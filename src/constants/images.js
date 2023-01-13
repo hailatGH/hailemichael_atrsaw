@@ -25,7 +25,7 @@ import mobile from '../assets/mobile.png';
 import mu5 from '../assets/mu5.png';
 import nb from '../assets/nb.png';
 import node from '../assets/node.png';
-import profile from '../assets/profile.png';
+import profile from '../assets/profile.jpg';
 import python from '../assets/python.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
