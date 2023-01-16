@@ -8,28 +8,28 @@ import { images } from "../../constants";
 
 const data = [
   {
-    imgUrl: images.frontend,
-    title: "Front-End Developer",
-    description:
-      "Responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages ",
-  },
-  {
     imgUrl: images.restapi,
     title: "Back-End Developer",
     description:
-      "Responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages ",
+      "Expert on building and maintaining the mechanisms that process data and perform actions on websites and mobile apps using different tools.",
+  },
+  {
+    imgUrl: images.frontend,
+    title: "Front-End Developer",
+    description:
+      "1+ year of experiance on the profession with one specific goal - ensure that website visitors can easily interact with the page.",
   },
   {
     imgUrl: images.mobileappdev,
     title: "Mobile App Developer",
     description:
-      "Responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages ",
+      "Experianced with tasks to create, test and develop user friendly applications. I Often take into account UI/UX principles when creating applications.",
   },
   {
     imgUrl: images.devops,
-    title: "Junior DevOps Engineer",
+    title: "Cloud DevOps Engineer",
     description:
-      "Responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages ",
+      "I have some experiance in containerizing my works so that they fit to any platfrom they are deployed. In addition I have good exposure on GCP and Azure public cloud vendors.",
   },
 ];
 
@@ -47,7 +47,7 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        Optimistic, <span>Visionary,</span> Disciplined <br />
+        Optimistic <span>- Visionary -</span> Disciplined <br />
         Engineered for <span>excellence</span>
       </h2>
 
