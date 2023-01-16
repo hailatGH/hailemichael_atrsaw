@@ -8,26 +8,26 @@ import { images } from "../../constants";
 
 const data = [
   {
-    imgUrl: images.about01,
+    imgUrl: images.frontend,
     title: "Front-End Developer",
     description:
       "Responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages ",
   },
   {
-    imgUrl: images.about02,
-    title: "Front-End Developer",
+    imgUrl: images.restapi,
+    title: "Back-End Developer",
     description:
       "Responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages ",
   },
   {
-    imgUrl: images.about03,
-    title: "Front-End Developer",
+    imgUrl: images.mobileappdev,
+    title: "Mobile App Developer",
     description:
       "Responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages ",
   },
   {
-    imgUrl: images.about04,
-    title: "Front-End Developer",
+    imgUrl: images.devops,
+    title: "Junior DevOps Engineer",
     description:
       "Responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages ",
   },
@@ -47,8 +47,8 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I Know that <span>Good Design</span> <br />
-        means <span>Good Business</span>
+        Optimistic, <span>Visionary,</span> Disciplined <br />
+        Engineered for <span>excellence</span>
       </h2>
 
       <div className="app__profiles">
