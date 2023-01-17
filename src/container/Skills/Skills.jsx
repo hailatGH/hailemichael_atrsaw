@@ -194,7 +194,7 @@ const Skills = () => {
                       anchorId={work.name}
                       effect="solid"
                       arrowColor="#fff"
-                      className="skills-tooltip"
+                      className="tooltip"
                     />
                   </>
                 ))}
