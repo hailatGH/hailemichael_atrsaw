@@ -48,7 +48,8 @@
   
     p {
       text-transform: uppercase;
-      color: var(--black-color);
+      color: var(--gray-color);
+      font-family: var(--font-base);
     }
   }
   
@@ -117,7 +118,7 @@
       height: 40px;
       border-radius: 50%;
       background-color: var(--white-color);
-      margin: 0.25rem 0;
+      margin: 1rem 0;
       border: 1px solid var(--lightGray-color);
   
       display: flex;
@@ -153,6 +154,10 @@
           height: 30px;
         }
       }
+    }
+
+    div.resumeDownload {
+      
     }
   }
   

@@ -11,25 +11,25 @@ const data = [
     imgUrl: images.restapi,
     title: "Back-End Developer",
     description:
-      "Expert on building and maintaining the mechanisms that process data and perform actions on websites and mobile apps using different tools.",
+      "Strong understanding of software development principles, well-versed in Agile methodologies and have experience working with cross-functional teams.",
   },
   {
     imgUrl: images.frontend,
     title: "Front-End Developer",
     description:
-      "1+ year of experiance on the profession with one specific goal - ensure that website visitors can easily interact with the page.",
+      "Well-versed in responsive design, have a solid understanding of web accessibility standards and experienced in frontend technologies.",
   },
   {
     imgUrl: images.mobileappdev,
     title: "Mobile App Developer",
     description:
-      "Experianced with tasks to create, test and develop user friendly applications. I Often take into account UI/UX principles when creating applications.",
+      "A proven track record of delivering high-quality, stable, and well-performing mobile apps on time and within budget.",
   },
   {
     imgUrl: images.devops,
     title: "Cloud DevOps Engineer",
     description:
-      "I have some experiance in containerizing my works so that they fit to any platfrom they are deployed. In addition I have good exposure on GCP and Azure public cloud vendors.",
+      "Comfortable working with CI/CD tools and have gained knowledge and experience of working with GCP, Azure, Linux and scripting.",
   },
 ];
 

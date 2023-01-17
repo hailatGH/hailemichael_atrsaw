@@ -17,15 +17,16 @@ import drf from '../assets/drf.png';
 import email from '../assets/email.png';
 import figma from '../assets/figma.png';
 import flutter from '../assets/flutter.png';
-import frontend from '../assets/frontend1234.png';
+import frontend from '../assets/frontend123.jpg';
 import git from '../assets/git.png';
 import graphql from '../assets/graphql.png';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
+import linkedin from '../assets/linkedin.png'
 import logo from '../assets/logo.png';
 import logoSVG from '../assets/logo.svg';
 import mobile from '../assets/mobile.png';
-import mobileappdev from '../assets/mobileappdev1234.gif';
+import mobileappdev from '../assets/mobileappdev1.jpeg';
 import mu5 from '../assets/mu5.png';
 import nb from '../assets/nb.png';
 import node from '../assets/node.png';
@@ -67,6 +68,7 @@ export default {
     javascript,
     logo,
     logoSVG,
+    linkedin,
     mobile,
     mobileappdev,
     mu5,
