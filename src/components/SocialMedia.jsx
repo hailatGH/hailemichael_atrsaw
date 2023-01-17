@@ -1,8 +1,7 @@
 import React from "react";
 import { BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
 import { FaCloudDownloadAlt } from "react-icons/fa";
-import { Tooltip as ReactTooltip } from "react-tooltip";
-import "react-tooltip/dist/react-tooltip.css";
+import { Tooltip } from "antd";
 
 import { files } from "../constants";
 
@@ -37,17 +36,17 @@ const SocialMedia = () => (
         <BsTwitter />
       </div>
 
-      <div id="cvDownload" data-tooltip-content="Download Resume!">
+      <Tooltip
+        placement="topLeft"
+        title="Download CV!"
+        arrowPointAtCenter
+        color="#313bac"
+      >
         <a href={files.cv} download>
           <FaCloudDownloadAlt />
         </a>
-      </div>
+      </Tooltip>
     </div>
-    <ReactTooltip
-      anchorId="cvDownload"
-      style={toolTipStyle}
-      className="tooltip"
-    />
   </>
 );
 

@@ -9,12 +9,15 @@ import asus from '../assets/asus.png';
 import bgIMG from '../assets/bgIMG.png';
 import bgWhite from '../assets/bgWhite.png';
 import bolt from '../assets/bolt.png';
+import bootstrap from '../assets/bootstrap2.png'
 import circle from '../assets/circle.svg';
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
 import devops from '../assets/devops.jpg';
-import drf from '../assets/drf.png';
+import django from '../assets/django23.png';
+import docker from '../assets/docker.webp'
 import email from '../assets/email.png';
+import express from '../assets/express1.png'
 import figma from '../assets/figma.png';
 import flutter from '../assets/flutter.png';
 import frontend from '../assets/frontend123.jpg';
@@ -38,6 +41,7 @@ import restapi from '../assets/restapi.webp';
 import sass from '../assets/sass.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import tailwind from '../assets/tailwind1.png'
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 
@@ -53,12 +57,15 @@ export default {
     bgIMG,
     bgWhite,
     bolt,
+    bootstrap,
     circle,
     cpp,
     css,
     devops,
-    drf,
+    django,
+    docker,
     email,
+    express,
     figma,
     flutter,
     frontend,
@@ -82,6 +89,7 @@ export default {
     sass, 
     skype, 
     spotify, 
+    tailwind,
     typescript, 
     vue
 };

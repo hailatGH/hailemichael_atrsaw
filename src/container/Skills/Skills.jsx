@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Tooltip as ReactTooltip } from "react-tooltip";
-import "react-tooltip/dist/react-tooltip.css";
+import { Tooltip } from "antd";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { images } from "../../constants";
-// import { client } from "../../client";
 import "./Skills.scss";
+import { icons } from "antd/es/image/PreviewGroup";
 
 const data = [
   {
@@ -69,62 +68,86 @@ const skillsData = [
   {
     key: 1,
     name: "HTML5",
-    bgColor: "",
+    bgColor: "#ed53221a",
     icon: images.html,
   },
   {
     key: 2,
     name: "CSS3",
-    bgColor: "",
+    bgColor: "#0298d91a",
     icon: images.css,
   },
   {
     key: 3,
     name: "JavaScript",
-    bgColor: "",
+    bgColor: "#ffd54b33",
     icon: images.javascript,
   },
-  {
-    key: 4,
-    name: "React JS",
-    bgColor: "",
-    icon: images.react,
-  },
+  // {
+  //   key: 4,
+  //   name: "Node JS",
+  //   bgColor: "",
+  //   icon: images.node,
+  // },
   {
     key: 5,
-    name: "Redux",
-    bgColor: "",
-    icon: images.redux,
+    name: "Python",
+    bgColor: "#027bb81a",
+    icon: images.python,
   },
-  {
-    key: 6,
-    name: "Node JS",
-    bgColor: "",
-    icon: images.node,
-  },
-  {
-    key: 7,
-    name: "Sass",
-    bgColor: "",
-    icon: images.sass,
-  },
+  // {
+  //   key: 14,
+  //   name: "TypeScript",
+  //   bgColor: "",
+  //   icon: images.typescript,
+  // },
+  // {
+  //   key: 6,
+  //   name: "Sass",
+  //   bgColor: "",
+  //   icon: images.sass,
+  // },
+  // {
+  //   key: 7,
+  //   name: "Tailwind",
+  //   bgColor: "",
+  //   icon: images.tailwind,
+  // },
   {
     key: 8,
-    name: "Figma",
-    bgColor: "",
-    icon: images.figma,
+    name: "React JS",
+    bgColor: "#5cddf81a",
+    icon: images.react,
   },
   {
     key: 9,
-    name: "Git",
-    bgColor: "",
-    icon: images.git,
+    name: "Redux",
+    bgColor: "#805cbc1a",
+    icon: images.redux,
   },
   {
     key: 10,
-    name: "React Native",
-    bgColor: "",
-    icon: images.react,
+    name: "Express JS",
+    bgColor: "#8282821a",
+    icon: images.express,
+  },
+  {
+    key: 11,
+    name: "Django",
+    bgColor: "#02402f26",
+    icon: images.django,
+  },
+  {
+    key: 12,
+    name: "Git",
+    bgColor: "#f9503026",
+    icon: images.git,
+  },
+  {
+    key: 13,
+    name: "Docker",
+    bgColor: "#0271a126",
+    icon: images.docker,
   },
 ];
 
@@ -133,16 +156,8 @@ const Skills = () => {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    // const query = '*[_type == "experiences"]';
-    // const skillsQuery = '*[_type == "skills"]';
-
-    // client.fetch(query).then((data) => {
     setExperiences(data);
-    // });
-
-    // client.fetch(skillsQuery).then((data) => {
     setSkills(skillsData);
-    // });
   }, []);
 
   return (
@@ -162,7 +177,11 @@ const Skills = () => {
                 className="app__flex"
                 style={{ backgroundColor: skill.bgColor }}
               >
-                <img src={skill.icon} alt={skill.name} />
+                <img
+                  src={skill.icon}
+                  alt={skill.name}
+                  style={{ borderRadius: "10px" }}
+                />
               </div>
               <p className="p-text">{skill.name}</p>
             </motion.div>
@@ -177,25 +196,24 @@ const Skills = () => {
               <motion.div className="app__skills-exp-works">
                 {experience.works.map((work) => (
                   <>
-                    <motion.div
-                      whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
-                      className="app__skills-exp-work"
-                      data-tip
-                      data-for={work.name}
-                      key={work.key}
-                      id={work.name}
-                      data-tooltip-content={work.desc}
+                    <Tooltip
+                      placement="topLeft"
+                      title={work.desc}
+                      arrowPointAtCenter
+                      color="#313bac"
                     >
-                      <h4 className="bold-text">{work.name}</h4>
-                      <p className="p-text">{work.company}</p>
-                    </motion.div>
-                    <ReactTooltip
-                      anchorId={work.name}
-                      effect="solid"
-                      arrowColor="#fff"
-                      className="tooltip"
-                    />
+                      <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{ duration: 0.5 }}
+                        className="app__skills-exp-work"
+                        data-tip
+                        data-for={work.name}
+                        key={work.key}
+                      >
+                        <h4 className="bold-text">{work.name}</h4>
+                        <p className="p-text">{work.company}</p>
+                      </motion.div>
+                    </Tooltip>
                   </>
                 ))}
               </motion.div>
