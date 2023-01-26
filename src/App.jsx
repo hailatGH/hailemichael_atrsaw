@@ -4,7 +4,7 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="app" scroll="no">
+    <div className="app">
       <Navbar />
       <Header />
       <About />
