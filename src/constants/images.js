@@ -6,11 +6,13 @@ import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
 import api from '../assets/api.png';
 import asus from '../assets/asus.png';
+import azure from '../assets/azure.png'
 import bgIMG from '../assets/bgIMG.png';
 import bgWhite from '../assets/bgWhite.png';
 import bolt from '../assets/bolt.png';
-import bootstrap from '../assets/bootstrap2.png'
+import bootstrap from '../assets/bootstrap2.png';
 import circle from '../assets/circle.svg';
+import commingsoon from '../assets/commingsoon.webp';
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
 import devops from '../assets/devops.jpg';
@@ -21,6 +23,7 @@ import express from '../assets/express1.png'
 import figma from '../assets/figma.png';
 import flutter from '../assets/flutter.png';
 import frontend from '../assets/frontend123.jpg';
+import gcp from '../assets/gcp.png';
 import git from '../assets/git.png';
 import graphql from '../assets/graphql.png';
 import html from '../assets/html.png';
@@ -32,7 +35,9 @@ import mobile from '../assets/mobile.png';
 import mobileappdev from '../assets/mobileappdev1.jpeg';
 import mu5 from '../assets/mu5.png';
 import nb from '../assets/nb.png';
+import nbe from '../assets/nbe.jpeg';
 import node from '../assets/node.png';
+import orange from '../assets/orange.webp';
 import profile from '../assets/profile.jpg';
 import python from '../assets/python.png';
 import react from '../assets/react3.png';
@@ -54,11 +59,13 @@ export default {
     amazon,
     api,
     asus,
+    azure,
     bgIMG,
     bgWhite,
     bolt,
     bootstrap,
     circle,
+    commingsoon,
     cpp,
     css,
     devops,
@@ -69,6 +76,7 @@ export default {
     figma,
     flutter,
     frontend,
+    gcp,
     git,
     graphql,
     html,
@@ -80,7 +88,9 @@ export default {
     mobileappdev,
     mu5,
     nb,
+    nbe,
     node,
+    orange,
     profile,
     python,
     react, 

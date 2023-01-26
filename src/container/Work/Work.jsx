@@ -10,40 +10,44 @@ import "./Work.scss";
 
 const data = [
   {
-    imgUrl: images.about01,
-    name: "Modern React JS Website",
+    imgUrl: images.commingsoon,
+    name: "TIN Checker Web App",
     projectLink: "",
     codeLink: "",
-    title: "Modern React JS Website",
-    description: "A modern React JS portfolio website",
+    title: "TIN Checker Web App",
+    description:
+      "Modern web app built using React, Flask and Fast API. It helps users (organizations) identify fake TIN Numbers.",
     tags: ["Web App", "All"],
   },
   {
-    imgUrl: images.about02,
-    name: "Modern React JS Website",
+    imgUrl: images.commingsoon,
+    name: "TIN Checker Mobile App",
     projectLink: "",
     codeLink: "",
-    title: "Modern React JS Website",
-    description: "A modern React JS portfolio website",
+    title: "TIN Checker Mobile App",
+    description:
+      'The mobile app version of the "TIN Checker Web App". It is built by the same tech stack with React Native added.',
+    tags: ["Mobile App", "All"],
+  },
+  {
+    imgUrl: images.commingsoon,
+    name: "ZEMA Multimedia",
+    projectLink: "",
+    codeLink: "",
+    title: "ZEMA Multimedia",
+    description:
+      "Online music, podcast and radio streaming platform, built by ZEMA Multimedia PLC. It makes listening to music convenient.",
+    tags: ["Mobile App", "All"],
+  },
+  {
+    imgUrl: images.commingsoon,
+    name: "Admin Portal Template",
+    projectLink: "",
+    codeLink: "",
+    title: "Admin Portal Template",
+    description:
+      "An adminstration portal template that can be customized to fit any project. It is built using React and Redux.",
     tags: ["Web App", "All"],
-  },
-  {
-    imgUrl: images.about03,
-    name: "Modern React JS Website",
-    projectLink: "",
-    codeLink: "",
-    title: "Modern React JS Website",
-    description: "A modern React JS portfolio website",
-    tags: ["Mobile App", "All"],
-  },
-  {
-    imgUrl: images.about04,
-    name: "Modern React JS Website",
-    projectLink: "",
-    codeLink: "",
-    title: "Modern React JS Website",
-    description: "A modern React JS portfolio website",
-    tags: ["Mobile App", "All"],
   },
 ];
 
@@ -112,7 +116,8 @@ const Work = () => {
                 }}
                 className="app__work-hover app__flex"
               >
-                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                {/* <a href={work.projectLink} target="_blank" rel="noreferrer"> */}
+                <a href="#work">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
@@ -122,7 +127,8 @@ const Work = () => {
                     <BiLinkExternal />
                   </motion.div>
                 </a>
-                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                {/* <a href={work.projectLink} target="_blank" rel="noreferrer"> */}
+                <a href="#work">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
@@ -132,7 +138,8 @@ const Work = () => {
                     <BiDetail />
                   </motion.div>
                 </a>
-                <a href={work.codeLink} target="_blank" rel="noreferrer">
+                {/* <a href={work.codeLink} target="_blank" rel="noreferrer"> */}
+                <a href="#work">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}

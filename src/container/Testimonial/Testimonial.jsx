@@ -38,23 +38,13 @@ const data = [
 const brandsData = [
   {
     id: 1,
-    imgUrl: images.bolt,
-    name: "Bolt",
+    imgUrl: images.orange,
+    name: "Orange Digital Center",
   },
   {
     id: 2,
-    imgUrl: images.spotify,
-    name: "Spotify",
-  },
-  {
-    id: 3,
-    imgUrl: images.amazon,
-    name: "Amazon",
-  },
-  {
-    id: 4,
-    imgUrl: images.skype,
-    name: "Skype",
+    imgUrl: images.nbe,
+    name: "National Bank of Ethiopia",
   },
 ];
 

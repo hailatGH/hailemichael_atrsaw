@@ -10,55 +10,49 @@ import { icons } from "antd/es/image/PreviewGroup";
 const data = [
   {
     key: 1,
-    year: 2022,
+    year: 2021,
     works: [
       {
         key: 11,
-        name: "Senior Product Designer",
-        desc: "Senior Product Designer",
-        company: "Amazon Inc.",
+        name: "Internship - Information System Management",
+        desc: "Troubleshooting and repairing computer hardware and software issues, as well as performing regular maintenance tasks to ensure the smooth and efficient operation of computer systems.",
+        company: "National Bank of Ethiopia",
+      },
+      {
+        key: 12,
+        name: "Internship - Junior Software Developer",
+        desc: "Mostly learn professional ways of developing, testing, and maintaining web and mobile apps.",
+        company: "Orange Digital Center Ethiopia",
       },
     ],
   },
   {
     key: 2,
-    year: 2021,
+    year: 2022,
     works: [
       {
         key: 21,
-        name: "UI/UX Web Designer",
-        desc: "UI/UX Web Designer",
-        company: "Google",
-      },
-      {
-        key: 22,
-        name: "Internship Graphic Designer",
-        desc: "Internship Graphic Designer",
-        company: "Invision",
+        name: "Junior Software Developer",
+        desc: "Development, testing, and maintenance of software applications under the guidance of senior developers. Additionally, assisting in the design and implementation of new features and functionality.",
+        company: "GAMD Solutions",
       },
     ],
   },
   {
     key: 3,
-    year: 2020,
+    year: 2023,
     works: [
       {
         key: 31,
-        name: "Senior WP Frontend Developer",
-        desc: "Senior WP Frontend Developer",
-        company: "ENVATO",
+        name: "Backend Developer and DevOps Engineer",
+        desc: "Creation and maintenance of the server-side logic and integration of the front-end with the back-end. Additionally, implementation of CI/CD and automation techniques.",
+        company: "KINIDEAS PLC.",
       },
       {
         key: 32,
-        name: "IOS Developer",
-        desc: "IOS Developer",
-        company: "Zara",
-      },
-      {
-        key: 33,
-        name: "Internship Frontend Developer",
-        desc: "Internship Frontend Developer",
-        company: "Apple",
+        name: "Full Stack Developer and DevOps Engineer",
+        desc: "Senior WP Frontend Developer",
+        company: "ZEMA Multimedia",
       },
     ],
   },
@@ -66,19 +60,19 @@ const data = [
 
 const skillsData = [
   {
-    key: 1,
+    key: 10,
     name: "HTML5",
     bgColor: "#ed53221a",
     icon: images.html,
   },
   {
-    key: 2,
+    key: 20,
     name: "CSS3",
     bgColor: "#0298d91a",
     icon: images.css,
   },
   {
-    key: 3,
+    key: 30,
     name: "JavaScript",
     bgColor: "#ffd54b33",
     icon: images.javascript,
@@ -90,7 +84,7 @@ const skillsData = [
   //   icon: images.node,
   // },
   {
-    key: 5,
+    key: 50,
     name: "Python",
     bgColor: "#027bb81a",
     icon: images.python,
@@ -114,40 +108,52 @@ const skillsData = [
   //   icon: images.tailwind,
   // },
   {
-    key: 8,
+    key: 80,
     name: "React JS",
     bgColor: "#5cddf81a",
     icon: images.react,
   },
   {
-    key: 9,
+    key: 90,
     name: "Redux",
     bgColor: "#805cbc1a",
     icon: images.redux,
   },
   {
-    key: 10,
+    key: 100,
     name: "Express JS",
     bgColor: "#8282821a",
     icon: images.express,
   },
   {
-    key: 11,
+    key: 110,
     name: "Django",
     bgColor: "#02402f26",
     icon: images.django,
   },
   {
-    key: 12,
+    key: 120,
     name: "Git",
     bgColor: "#f9503026",
     icon: images.git,
   },
   {
-    key: 13,
+    key: 130,
     name: "Docker",
     bgColor: "#0271a126",
     icon: images.docker,
+  },
+  {
+    key: 140,
+    name: "GCP",
+    bgColor: "#F0413D26",
+    icon: images.gcp,
+  },
+  {
+    key: 150,
+    name: "Azure",
+    bgColor: "#16AEE426",
+    icon: images.azure,
   },
 ];
 
