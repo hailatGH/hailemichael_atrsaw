@@ -9,29 +9,10 @@ import "./Testimonial.scss";
 
 const data = [
   {
-    imgUrl: images.css,
-    name: "CSS",
-    company: "CSS Company",
-    feedback:
-      "A passionate, energetic and detail-oriented developer and IT Specialist with the ability to build scalable and performant backend products as well as exceptional, responsive and creative digital experiences within tight deadlines. Currently working to expand into the cybersecurity industry.",
-  },
-  {
-    imgUrl: images.sass,
-    name: "Some One",
-    company: "Some Company",
-    feedback: "Some description about me!",
-  },
-  {
-    imgUrl: images.flutter,
-    name: "Some One",
-    company: "Some Company",
-    feedback: "Some description about me!",
-  },
-  {
-    imgUrl: images.react,
-    name: "Some One",
-    company: "Some Company",
-    feedback: "Some description about me!",
+    imgUrl: "",
+    name: "",
+    company: "",
+    feedback: "",
   },
 ];
 

@@ -44,4 +44,9 @@
             height: 170px;
         }
     }
+    @media screen and (max-width: 450px){
+       .head-text {
+        font-size: 1.4rem;
+       }
+    }
 }

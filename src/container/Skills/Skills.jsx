@@ -51,7 +51,7 @@ const data = [
       {
         key: 32,
         name: "Full Stack Developer and DevOps Engineer",
-        desc: "Senior WP Frontend Developer",
+        desc: "Design, development, and maintenance of mobile and web apps, and often work closely with designers and other developers to ensure that the final product meets the needs of the client or end user.",
         company: "ZEMA Multimedia",
       },
     ],
@@ -133,24 +133,30 @@ const skillsData = [
   },
   {
     key: 120,
+    name: "Flask",
+    bgColor: "#2E2E2E26",
+    icon: images.flask,
+  },
+  {
+    key: 130,
     name: "Git",
     bgColor: "#f9503026",
     icon: images.git,
   },
   {
-    key: 130,
+    key: 140,
     name: "Docker",
     bgColor: "#0271a126",
     icon: images.docker,
   },
   {
-    key: 140,
+    key: 150,
     name: "GCP",
     bgColor: "#F0413D26",
     icon: images.gcp,
   },
   {
-    key: 150,
+    key: 160,
     name: "Azure",
     bgColor: "#16AEE426",
     icon: images.azure,

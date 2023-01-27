@@ -1,6 +1,6 @@
 import React from "react";
 import { BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
-import { FaCloudDownloadAlt } from "react-icons/fa";
+import { FaCloudDownloadAlt, FaTelegramPlane } from "react-icons/fa";
 import { Tooltip } from "antd";
 
 import { files } from "../constants";
@@ -27,6 +27,13 @@ const SocialMedia = () => (
         }
       >
         <BsGithub />
+      </div>
+      <div
+        onClick={() =>
+          window.open("https://t.me/hailatGH", "_blank", "noreferrer")
+        }
+      >
+        <FaTelegramPlane style={{ width: "17px", height: "17px" }} />
       </div>
       <div
         onClick={() =>

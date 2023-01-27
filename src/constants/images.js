@@ -21,6 +21,7 @@ import docker from '../assets/docker.webp'
 import email from '../assets/email.png';
 import express from '../assets/express1.png'
 import figma from '../assets/figma.png';
+import flask from '../assets/flask.png';
 import flutter from '../assets/flutter.png';
 import frontend from '../assets/frontend123.jpg';
 import gcp from '../assets/gcp.png';
@@ -38,9 +39,9 @@ import nb from '../assets/nb.png';
 import nbe from '../assets/nbe.jpeg';
 import node from '../assets/node.png';
 import orange from '../assets/orange.webp';
-import profile from '../assets/profile.jpg';
+import profile from '../assets/profile.png';
 import python from '../assets/python.png';
-import react from '../assets/react3.png';
+import react from '../assets/reactsvg.png';
 import redux from '../assets/redux.png';
 import restapi from '../assets/restapi.webp';
 import sass from '../assets/sass.png';
@@ -74,6 +75,7 @@ export default {
     email,
     express,
     figma,
+    flask,
     flutter,
     frontend,
     gcp,

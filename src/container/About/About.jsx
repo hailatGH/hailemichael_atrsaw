@@ -47,8 +47,8 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        Optimistic <span>- Visionary -</span> Disciplined <br />
-        Engineered for <span>excellence</span>
+        Optimistic <span>- Visionary -</span> Disciplined
+        {/* Engineered for <span>excellence</span> */}
       </h2>
 
       <div className="app__profiles">

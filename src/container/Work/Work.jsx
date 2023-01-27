@@ -10,7 +10,7 @@ import "./Work.scss";
 
 const data = [
   {
-    imgUrl: images.commingsoon,
+    imgUrl: "",
     name: "TIN Checker Web App",
     projectLink: "",
     codeLink: "",
@@ -20,7 +20,7 @@ const data = [
     tags: ["Web App", "All"],
   },
   {
-    imgUrl: images.commingsoon,
+    imgUrl: "",
     name: "TIN Checker Mobile App",
     projectLink: "",
     codeLink: "",
@@ -30,7 +30,7 @@ const data = [
     tags: ["Mobile App", "All"],
   },
   {
-    imgUrl: images.commingsoon,
+    imgUrl: "",
     name: "ZEMA Multimedia",
     projectLink: "",
     codeLink: "",
@@ -40,7 +40,7 @@ const data = [
     tags: ["Mobile App", "All"],
   },
   {
-    imgUrl: images.commingsoon,
+    imgUrl: "",
     name: "Admin Portal Template",
     projectLink: "",
     codeLink: "",
@@ -48,6 +48,16 @@ const data = [
     description:
       "An adminstration portal template that can be customized to fit any project. It is built using React and Redux.",
     tags: ["Web App", "All"],
+  },
+  {
+    imgUrl: "",
+    name: "Amharic Speech to Text",
+    projectLink: "",
+    codeLink: "",
+    title: "Amharic Speech to Text",
+    description:
+      "AI powered mobile app, built using Reat Native that helps users to live convert their speech into written text.",
+    tags: ["Mobile App", "All"],
   },
 ];
 
@@ -105,7 +115,7 @@ const Work = () => {
         {filterWork.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div className="app__work-img app__flex">
-              <img src={work.imgUrl} alt={work.name} />
+              <img src={work.imgUrl || images.commingsoon} alt={work.name} />
 
               <motion.div
                 whileHover={{ opacity: [0, 1] }}
@@ -125,17 +135,6 @@ const Work = () => {
                     className="app__flex"
                   >
                     <BiLinkExternal />
-                  </motion.div>
-                </a>
-                {/* <a href={work.projectLink} target="_blank" rel="noreferrer"> */}
-                <a href="#work">
-                  <motion.div
-                    whileInView={{ scale: [0, 1] }}
-                    whileHover={{ scale: [1, 0.9] }}
-                    transition={{ duration: 0.25 }}
-                    className="app__flex"
-                  >
-                    <BiDetail />
                   </motion.div>
                 </a>
                 {/* <a href={work.codeLink} target="_blank" rel="noreferrer"> */}

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
+import { IoMdMenu } from "react-icons/io";
 import { motion } from "framer-motion";
 
 import { images } from "../../constants";
@@ -24,7 +25,7 @@ const Navbar = () => {
       </ul>
 
       <div className="app__navbar-menu">
-        <HiMenuAlt4 onClick={() => setToggle(true)} />
+        <IoMdMenu onClick={() => setToggle(true)} />
 
         {toggle && (
           <motion.div
