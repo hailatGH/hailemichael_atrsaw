@@ -45,7 +45,7 @@ const SocialMedia = () => (
 
       <Tooltip
         placement="topLeft"
-        title="Download CV!"
+        title="Download Resume!"
         arrowPointAtCenter
         color="#313bac"
       >
