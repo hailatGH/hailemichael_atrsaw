@@ -9,7 +9,19 @@ import "./Testimonial.scss";
 
 const data = [
   {
-    imgUrl: "",
+    imgUrl: images.nahomgirma,
+    name: "",
+    company: "",
+    feedback: "",
+  },
+  {
+    imgUrl: images.abelteum,
+    name: "",
+    company: "",
+    feedback: "",
+  },
+  {
+    imgUrl: images.danieltesfai,
     name: "",
     company: "",
     feedback: "",
@@ -19,13 +31,23 @@ const data = [
 const brandsData = [
   {
     id: 1,
+    imgUrl: images.nbe,
+    name: "National Bank of Ethiopia",
+  },
+  {
+    id: 2,
     imgUrl: images.orange,
     name: "Orange Digital Center",
   },
   {
-    id: 2,
-    imgUrl: images.nbe,
-    name: "National Bank of Ethiopia",
+    id: 3,
+    imgUrl: images.kinideas,
+    name: "KIN IDEAS PLC.",
+  },
+  {
+    id: 4,
+    imgUrl: images.zema,
+    name: "ZEMA Multimedia IDEAS PLC.",
   },
 ];
 
